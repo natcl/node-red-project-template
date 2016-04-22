@@ -1,5 +1,5 @@
 {
-    "name"         : "Node-RED project template",
+    "name"         : "node-red-project-template",
     "version"      : "0.0.1",
     "description"  : "Node-RED project template",
     "dependencies": {
