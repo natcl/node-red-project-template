@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ $# -eq 0 ]] ; then
+    node node_modules/node-red/red.js -v -userDir .
+    exit 1
+fi
+
+node node_modules/node-red/red.js -v -p $1 -userDir .
