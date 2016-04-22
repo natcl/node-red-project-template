@@ -15,3 +15,7 @@ When running multiple instances in parallel, you can specify a port:
 ```
 ./start 1885
 ```
+
+## Dependencies
+
+You can easily add third party nodes by modifying the package.json file.  For this template we added the node-red-contrib-ui package.
