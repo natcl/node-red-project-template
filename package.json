@@ -6,6 +6,9 @@
         "node-red": "~0.13.4",
         "node-red-contrib-ui": "~1.2.19"
     },
+    "scripts": {
+      "start": "node start.js"
+    },
     "repository": {
       "type": "git",
       "url": "https://github.com/natcl/node-red-project-template.git"

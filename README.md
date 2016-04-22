@@ -7,13 +7,13 @@ This is a template for a Node-RED project meant to be run in local mode.  The id
 git clone https://github.com/natcl/node-red-project-template.git
 cd node-red-project-template
 npm install
-./start
+npm start
 ```
 
 When running multiple instances in parallel, you can specify a port:
 
 ```
-./start 1885
+npm start 1885
 ```
 
 ## Dependencies
