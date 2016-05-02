@@ -31,4 +31,11 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# OSX
+.DS_Store
+
+# Node-RED
 .config.json
+.sessions.json
+.flows.json.backup
