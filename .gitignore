@@ -38,6 +38,5 @@ node_modules
 # Node-RED
 .config.json
 .sessions.json
-.flows.json.backup
-.flows_cred.json.backup
+*json.backup
 flows_cred.json
