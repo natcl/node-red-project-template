@@ -13,7 +13,7 @@ if (fIndex > -1) {
     args.splice(fIndex, 1);
 }
 
-command = spawn('node', ['node_modules/node-red/red.js', '-v', '-userDir', '.'].concat(args));
+command = spawn('node', ['node_modules/node-red/red.js', '-v', '-userDir', '.'].concat(args), {env: process.env});
 
 command.stdout.on('data', (data) => {
     console.log(data.toString());
