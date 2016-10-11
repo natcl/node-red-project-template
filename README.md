@@ -18,13 +18,6 @@ When running multiple instances in parallel, you can specify a port:
 ```
 npm start -- -p 1885
 ```
-
-To force an npm install (if you modified the package.json to add dependencies for example) you can use the -f switch:
-
-```
-npm start -- -f
-```
-
 To run a specic flow file:
 
 ```
