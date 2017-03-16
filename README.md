@@ -18,7 +18,7 @@ When running multiple instances in parallel, you can specify a port:
 ```
 npm start -- -p 1885
 ```
-To run a specic flow file:
+To run a specific flow file:
 
 ```
 npm start -- testFlow.json
