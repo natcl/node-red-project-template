@@ -39,4 +39,4 @@ node_modules
 .config.json
 .sessions.json
 *json.backup
-flows_cred.json
+*_cred.json
